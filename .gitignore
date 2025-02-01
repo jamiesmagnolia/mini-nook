@@ -1,0 +1,57 @@
+# Node modules (for both frontend and backend)
+node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+logs/
+backend/logs/
+
+# Environment files (to protect sensitive keys and settings)
+.env
+backend/.env
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Angular specific
+/.angular/
+.angular/cache/
+.angular/config.json
+/dist/
+/out-tsc/
+/coverage/
+
+# Public files that are auto-generated or temporary
+public/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Temporary files and caches
+/tmp/
+temp/
+*.cache
+
+# Testing
+/coverage/
+/karma-coverage/
+/test-results/
+
+# Backend specific (Express or other backend framework)
+/backend/temp/
+/backend/*.cache
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Other common files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
